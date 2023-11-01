@@ -4,7 +4,6 @@ import Poster from './Poster';
 import ContactInformation from './ContactInformation';
 import {
     exportComponentAsJPEG,
-    exportComponentAsPDF,
     exportComponentAsPNG,
 } from 'react-component-export-image';
 
