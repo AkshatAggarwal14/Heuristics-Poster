@@ -196,20 +196,6 @@ function PosterContainer() {
                                 >
                                     Generate PNG
                                 </button>
-                                <button
-                                    className={'btn btn-dark'}
-                                    style={buttonStyle}
-                                    onClick={() =>
-                                        exportComponentAsPDF(
-                                            ref,
-                                            data.iteration
-                                                ? data.iteration
-                                                : 'poster'
-                                        )
-                                    }
-                                >
-                                    Generate PDF
-                                </button>
                             </div>
                         </div>
                     </div>
